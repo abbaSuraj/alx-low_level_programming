@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - function name
- * printf function
+ * functio to display quote with date and author
  * Return: return 1
  */
 int main(void)
