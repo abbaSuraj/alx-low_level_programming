@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	printf("and that piece of art is useful\" Dora Korpar, 25-10-19");
+	printf("and that piece of art is useful\" - Dora Korpar, 25-10-19");
 	return (1);
 }
