@@ -9,8 +9,11 @@ int main(void)
 
 	for (k = 0; k < 10; k++)
 	{
-		putchar((k % 10) + '0');
-		putchar(44);
+		if (k != 9)
+		{
+			putchar(44);
+			putchar(32);
+		}
 	}
 	return (0);
 }
