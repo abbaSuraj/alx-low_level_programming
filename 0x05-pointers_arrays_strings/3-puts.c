@@ -12,6 +12,6 @@ void _puts(char *z)
 	while (*z != '\0')
 	{
 		printf("%c", *z++);
-		printf("\n");
 	}
+	printf("\n");
 }
