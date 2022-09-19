@@ -1,9 +1,12 @@
 #include <stdio.h>
 /**
- * main - entry point
- * Return: return void
+ * reset_to_98 - function to reset variable
+ * @x: variable name
+ *
+ * function takes a ptr to an int as parameter & updates value to 98
+ * Return: void
  */
-void reset_to_98(int *q)
+void reset_to_98(int *x)
 {
-	q = 98;
+	x = 98;
 }
