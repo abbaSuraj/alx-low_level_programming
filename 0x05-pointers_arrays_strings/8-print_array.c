@@ -1,20 +1,27 @@
-#include <stdio.h>
-/**
- * print_array - print elements of array
- * @a: pointer
- * i: Second variable
- * @n: number of elements
- *
- * Description: function that prints elements of array
- * Return: void
- */
-void print_array(int *a, int n)
-{
-	int i;
+#include "main.h"
 
-	for (i = 0; i < n; i++)
+/**
+ * puts_half - prints half of a string.
+ * @str: input string.
+ * Return: no return.
+ */
+void puts_half(char *str)
+{
+	int count = 0, i;
+
+	while (count >= 0)
 	{
-		printf("%d, ", a[i]);
+		if (str[count] == '\0')
+			break;
+		count++;
 	}
-	printf("\n");
+
+	if (count % 2 == 1)
+		i = count / 2;
+	else
+		i = (count - 1) / 2;
+
+	for (i++; i < count; i++)
+		_putchar(str[i]);
+	_putchar('\n');
 }
