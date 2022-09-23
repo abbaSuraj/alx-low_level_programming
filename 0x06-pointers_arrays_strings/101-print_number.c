@@ -8,7 +8,15 @@
  */
 void print_number(int n)
 {
-	int a0, a1, a2, a3, a4, a5, a6, a7, a8, a9;
+	int a0;
+       	int a1;
+	int a2;
+	int a3;
+	int a4;
+	int a5;
+	int a6;
+	int a7;
+	int a8, a9;
 	int s0, s1, s2, s3, s4, s5, s6, s7, s8;
 
 	a0 = n / 1000000000; s0 = a0; a1 = (n / 100000000) % 10; s1 = s0 + a1;
